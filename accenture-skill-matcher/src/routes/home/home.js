@@ -21,7 +21,7 @@ const Home = () => {
                 <div className="w-full ml-8 mr-8 mt-8 mb-8">
                     <div className="bg-white shadow-md rounded border w-full px-8 pt-6 pb-8">
                         <h1 className="text-3xl mb-6 font-bold">
-                            {TITLE}
+                            {TITLE} 
                         </h1>
 
                         <form className="mb-4">
