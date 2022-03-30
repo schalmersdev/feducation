@@ -1,12 +1,15 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import {
+	Routes,
+	Route
+} from "react-router-dom";
 import Layout from './routes/layout/layout';
 import Home from './routes/home/home';
 import Nomatch from './routes/nomatch/nomatch';
 //css
-import './App.css';
+import './App.scss';
 
-export default function App() {
+const App = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<Layout />}>
@@ -16,3 +19,7 @@ export default function App() {
 		</Routes>
 	);
 }
+
+export default App;
+
+
